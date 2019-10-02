@@ -28,8 +28,8 @@ const Article = () => {
       <p>Since then, the statue has served as a symbol of hope and possibility for many people who entered the United States as immigrants via neighboring Ellis Island.</p>
 
       <p>"The original torch is a beautiful object of art and exemplifies the American ideals of freedom and democracy," says John Piltzecker, superintendent of the Statue of Liberty National Monument. That symbolic spirit inspired the decision to inscribe these famous lines on the statue's pedestal:</p>
-       <b>Give me your tired, your poor </b>
-       Your huddled masses yearning to breathe free."
+       Give me your tired, your poor
+       Your huddled masses yearning to breathe free.
 
       <p>In 2017, nearly 4.5 million people visited Liberty Island.</p>
 
@@ -38,14 +38,16 @@ const Article = () => {
       <p>The inspiration gallery, which is where the torch will live, will have floor-to-ceiling glass windows looking out at Lower Manhattan, including the World Trade Center.</p>
 
       <h1>Some facts about the Statue of Liberty</h1>
+      <ul>
 
-      * Total overall height from the base of the pedestal foundation to the tip of the torch is 305 feet, 6 inches
+        <li>Total overall height from the base of the pedestal foundation to the tip of the torch is 305 feet, 6 inches</li>
 
-      * Height of the Statue from her heel to the top of her head is 111 feet, 6 inches
+        <li>Height of the Statue from her heel to the top of her head is 111 feet, 6 inches</li>
 
-      * The Statue has a 35-foot waistline
+        <li>The Statue has a 35-foot waistline</li>
 
-      * Total weight of the Statue of Liberty is 225 tons (or 450,000 pounds)
+        <li>Total weight of the Statue of Liberty is 225 tons (or 450,000 pounds)</li>
+      </ul>
       </body>
     </div>
 
