@@ -5,7 +5,36 @@
     border:.05rem;
     border-style: solid;
     border-color: #C10202;
-
+    border-radius: 0.6rem;
+    box-shadow: 0 .4rem .4rem .2rem gray;
+    background-image: linear-gradient(to right, #DC6A6A, white 15%);
+}
+.img_wrapper {
+    float: left;
+    width: 10rem;
+}
+.img_wrapper img {
+    height: 100%;
+    width: 100%;
+    border: 0.5rem;
+    border-color: #C10202;
+    border-style: solid;
+    border-radius: 50%;
+    box-shadow: 0 .4rem .4rem .2rem grey;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.content {
+    overflow: hidden;
+    padding-left: 2.2rem;
 }
 .title {
     margin:.5rem 0;

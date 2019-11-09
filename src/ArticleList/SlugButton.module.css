@@ -1,3 +1,4 @@
+
 .slugButton {
     position: absolute;
     bottom: .8rem;
@@ -7,7 +8,8 @@
     border:.05rem;
     border-style: solid;
     border-color: #AEAAAA;
-    background: #C10202;
+    border-radius: .4rem;
+    background: #CF2525;
     color: white;
     text-transform: capitalize;
 }

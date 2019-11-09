@@ -1,12 +1,15 @@
+
 .feedlist {
-    background: #B6B1B1;
+    background: #AFAEAE;
     margin:2rem;
     padding:0.5rem 0;
     border:.05rem;
     border-style: dashed;
-    border-color: grey;
+    border-color: #545454;
+    border-radius: .8rem;
     font-size:1rem;
     list-style-type: none;
+    box-shadow: 0 .4rem .4rem .2rem #C3C3C3;
 }
 .list {
     display: block;

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="346e6668-ada1-4470-ba7e-9aadb7f150fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleList/ArticleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArticleList/ArticleListItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticleList/ArticleListItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArticleList/ArticleImage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleList/ArticleList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArticleList/ArticleList.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
