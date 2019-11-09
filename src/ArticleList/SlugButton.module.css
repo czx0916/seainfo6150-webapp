@@ -1,8 +1,4 @@
-
 .slugButton {
-    position: absolute;
-    bottom: 2rem;
-    width: 100%;
     font-size: 1rem;
     padding: 1rem .6rem;
     border:.05rem;
@@ -14,3 +10,51 @@
     text-transform: capitalize;
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 399px) {
+    .slugButton {
+        position: absolute;
+        height: 8%;
+        width: 90%;
+        bottom:5%;
+        left:50%;
+        transform: translate(-50%);
+    }
+  }
+
+@media (min-width: 400px) and (max-width: 599px) {
+    .slugButton {
+        position: absolute;
+        height: 10%;
+        width: 90%;
+        bottom:5%;
+        left:50%;
+        transform: translate(-50%);
+    }
+  }
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .slugButton {
+        position: absolute;
+        width: 70%;
+        bottom:5%;
+        left:50%;
+        transform: translate(-50%);
+    }
+  }
+
+@media (min-width: 900px) {
+    .slugButton {
+        position: absolute;
+        bottom: 2rem;
+        width: 100%;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .slugButton {
+        position: absolute;
+        bottom: 2rem;
+        width: 100%;
+    }
+  }

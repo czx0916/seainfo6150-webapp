@@ -1,7 +1,4 @@
-
 .feedlist {
-    display: grid;
-    grid-template-columns: repeat(3, 33.33%);
     background: #AFAEAE;
     margin:2rem;
     padding:0.5rem 0;
@@ -15,7 +12,6 @@
 }
 .list {
     margin: 1rem 1.5rem 1.5rem 1.5rem;
-    height: 33rem;
     background: #F9F7F7;
     padding:1rem;
     border:.05rem;
@@ -25,3 +21,43 @@
     box-shadow: 0 .4rem .4rem .2rem gray;
     background-image: linear-gradient(to right, #DC6A6A, white 15%);
 }
+
+@media (min-width: 320px) and (max-width: 599px){
+    .feedlist {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+    }
+    .list {
+        position: relative;
+        height: 33rem;
+        padding-bottom: 20%;
+    }
+  }
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .list {
+        display: block;
+        position: relative;
+        padding: 1rem 1rem 5rem 1rem;
+    }
+  }
+
+@media (min-width: 900px) {
+    .feedlist {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    .list {
+        height: 33rem;
+    }
+  }
+
+@media (min-width: 1200px)  {
+    .feedlist {
+        display: grid;
+        grid-template-columns: repeat(3, 33.33%);
+    }
+    .list {
+        height: 33rem;
+    }
+  }
