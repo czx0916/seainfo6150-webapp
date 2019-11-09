@@ -1,0 +1,17 @@
+.article_tag {
+    display: block;
+    background: #F9F7F7;
+    padding:1rem;
+    border:.05rem;
+    border-style: solid;
+    border-color: #C10202;
+
+}
+.title {
+    margin:.5rem 0;
+    color: #C10202;
+    font-size: 2rem;
+}
+.time {
+    font-weight:bold;
+}

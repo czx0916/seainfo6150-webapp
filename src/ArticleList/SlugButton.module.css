@@ -1,0 +1,13 @@
+.slugButton {
+    position: absolute;
+    bottom: .8rem;
+    right: .8rem;
+    font-size: 1rem;
+    padding: .2rem .6rem;
+    border:.05rem;
+    border-style: solid;
+    border-color: #AEAAAA;
+    background: #C10202;
+    color: white;
+    text-transform: capitalize;
+}
