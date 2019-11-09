@@ -1,17 +1,15 @@
+
 .article_tag {
-    display: block;
-    background: #F9F7F7;
-    padding:1rem;
-    border:.05rem;
-    border-style: solid;
-    border-color: #C10202;
-    border-radius: 0.6rem;
-    box-shadow: 0 .4rem .4rem .2rem gray;
-    background-image: linear-gradient(to right, #DC6A6A, white 15%);
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+
 }
 .img_wrapper {
-    float: left;
+    position: absolute;
     width: 10rem;
+    top: .5rem;
 }
 .img_wrapper img {
     height: 100%;
@@ -34,7 +32,6 @@
 }
 .content {
     overflow: hidden;
-    padding-left: 2.2rem;
 }
 .title {
     margin:.5rem 0;

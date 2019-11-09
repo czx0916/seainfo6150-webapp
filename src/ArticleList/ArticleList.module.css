@@ -1,5 +1,7 @@
 
 .feedlist {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
     background: #AFAEAE;
     margin:2rem;
     padding:0.5rem 0;
@@ -12,7 +14,14 @@
     box-shadow: 0 .4rem .4rem .2rem #C3C3C3;
 }
 .list {
-    display: block;
     margin: 1rem 1.5rem 1.5rem 1.5rem;
-    position: relative;
+    height: 33rem;
+    background: #F9F7F7;
+    padding:1rem;
+    border:.05rem;
+    border-style: solid;
+    border-color: #C10202;
+    border-radius: 0.6rem;
+    box-shadow: 0 .4rem .4rem .2rem gray;
+    background-image: linear-gradient(to right, #DC6A6A, white 15%);
 }

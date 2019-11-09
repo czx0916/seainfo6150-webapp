@@ -15,8 +15,8 @@ const ArticleListItem = props => {
                 <h2  class={styles.title}>{props.article.title}</h2>
                 <p>{props.article.shortText}</p>
                 <time class={styles.time}dateTime={props.article.pubYear}>{props.article.pubDate}</time>
-                <SlugButton author={props.article.author} slug={props.article.slug} />
             </div>
+            <SlugButton author={props.article.author} slug={props.article.slug} />
         </section>
     );
 };
